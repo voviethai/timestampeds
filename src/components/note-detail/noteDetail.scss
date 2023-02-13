@@ -1,0 +1,48 @@
+.detail-total{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin: 0 auto;
+    background-color:  hsl(69, 90%, 67%);
+    margin-top: 20px;
+    padding: 0 10px;
+
+    .note-detail {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .note-title {
+            p{
+                font-size: 24px;
+                margin: 10px;
+            }
+            
+        }
+        .action {
+            display: flex;
+            justify-content: center;
+            a {
+                text-decoration: none;
+                color: #000;
+            }
+        }
+        .remove-detail{
+            margin-left: 10px;
+        }
+        .hide-detail:hover {
+            color: #fff;
+            background-color: blue;
+        }
+        .remove-detail:hover {
+            color: #fff;
+            background-color: red;
+        }
+    }
+    .hr-custom{
+        color: red;
+        margin-top: 10px;
+        border: 1px solid #fff;
+    }
+}
+
+
